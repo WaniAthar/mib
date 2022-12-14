@@ -1,0 +1,38 @@
+{% extends 'base.html'%}
+{% block body %}
+
+<!-- !PUPA CONTENT GOES HERE - start -->
+<section class="section main-banner main-content">
+    <div class="video-overlay header-text">
+        <div class="caption">
+            <h2>
+                Gallery
+            </h2>
+            <h6>Make In BVB</h6>
+
+        </div>
+    </div>
+
+</section>
+<div class="main-gallery">
+    {% for photo in photos %}
+    <div class="image-section">
+        <div class="image-content">
+            <img src="media/{{photo.image}}"
+                alt={{photo.title}}>
+        </div>
+        <div class="image-data">
+            <div class="image-title">{{photo.title}}</div>
+            <div class="image-poster">by {{photo.posted_by}}</div>
+            {% comment %} <div class="image-date">on </div> {% endcomment %}
+            <div class="image-description">
+                {{photo.caption}}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+   
+    </div>
+</div>
+{% endblock body %}

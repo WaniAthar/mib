@@ -1,0 +1,331 @@
+{% extends 'base.html' %}
+
+{% block body %}
+ {% load static %}
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+    <video autoplay muted loop id="bg-video">
+        
+      <source src="{% static 'assets/images/course-video.mp4' %}" type="video/mp4" />
+    </video>
+
+    <div class="video-overlay header-text">
+      <div class="caption">
+        <h2>MAKE IN BVB</h2>
+        <h6>Inspiring minds to innovate</h6>
+        <div class="main-button">
+          <!-- <div class="scroll-to-section"><a href="#section2">Discover more</a></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>What is Make In BVB?</h4>
+              </div>
+              <div class="content-hide">
+                <p>Make in BVB(MiB) is the echo of infinite innovative ideas framed to restructure the country. With
+                  "Make in India", "Start Up India", "Stand Up India" as the driving power, the journey of MiB in
+                  reconstructing the future of the country is accelerated. This unique body strives for the
+                  revolutionary evolution of entrepreneurial thinking through the envisioned entrepreneurial ecosystem.
+                  Every action of it aims at the profound development of persona of the society. To be precise
+                  "Inspiring minds to innovate".</p>
+                <p class="hidden-sm">Make in BVB(MiB) is the echo of infinite innovative ideas framed to restructure the
+                  country. With
+                  "Make in India", "Start Up India", "Stand Up India" as the driving power, the journey of MiB in
+                  reconstructing the future of the country is accelerated. This unique body strives for the
+                  revolutionary evolution of entrepreneurial thinking through the envisioned entrepreneurial ecosystem.
+                  Every action of it aims at the profound development of persona of the society. To be precise
+                  "Inspiring minds to innovate".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <a id="section2"></a>
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>About us</h4>
+              </div>
+              <div class="content-hide">
+                <p>Make in BVB(MIB): With the motto of “Inspiring minds to innovate”, Make in BVB was started by a bunch
+                  of self-motivated students under CTIE(Centre for Technology Innovation and Entrepreneurship) in the
+                  year 2014. From then till present times it has been instilling entrepreneurial mindset among the youth
+                  in and around the state and is recognised even globally through BVB-Umass Student Exchange Programs.
+
+                </p>
+                <p class="hidden-sm">Make in BVB(MIB): With the motto of “Inspiring minds to innovate”, Make in BVB was
+                  started by a bunch
+                  of self-motivated students under CTIE(Centre for Technology Innovation and Entrepreneurship) in the
+                  year 2014. From then till present times it has been instilling entrepreneurial mindset among the youth
+                  in and around the state and is recognised even globally through BVB-Umass Student Exchange Programs.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Our Goal</h4>
+              </div>
+              <div class="content-hide">
+                <p> The goal of the club is to inspire students to think innovatively and drive personal and societal
+                  development through entrepreneurship. The club provides support and resources for students who are
+                  looking to start their own businesses, with the ultimate goal of fostering a culture of innovation and
+                  progress on campus.</p>
+                <p class="hidden-sm"> The goal of the club is to inspire students to think innovatively and drive
+                  personal and societal
+                  development through entrepreneurship. The club provides support and resources for students who are
+                  looking to start their own businesses, with the ultimate goal of fostering a culture of innovation and
+                  progress on campus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What do we Stand For? -->
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>What do we stand for?</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1' class="tab-title">Entrepreneurial Mindset </a></li>
+              <li><a href='#tabs-2' class="tab-title">Leadership quality</a></li>
+              <li><a href='#tabs-3' class="tab-title" id="tab-title-innovation">Cultivating Innovation</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    
+                    <img src="{% static 'assets/images/choose-us-image-01.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Entrepreneurial Mindset</h4>
+                    <p>To cultivate an entrepreneurial mindset in our club members, we provide a range of resources and
+                      support. For example, we offer workshops and seminars on topics such as business planning, market
+                      research, and financial management. We also provide networking opportunities and mentorship
+                      programs, which can help our members to connect with successful entrepreneurs and learn from their
+                      experiences.
+                    </p>
+                    <p>
+                      In addition to these more formal programs, we also encourage our members to think outside the box
+                      and challenge the status quo. We believe that an entrepreneurial mindset is not just about
+                      starting businesses, but also about being open to new ideas and taking calculated risks. We
+                      encourage our members to think creatively and to be willing to experiment and learn from their
+                      mistakes.
+                    </p>
+                    <p>
+                      Overall, our goal is to create a community of like-minded individuals who are passionate about
+                      entrepreneurship and who are committed to driving positive change in the world. We believe that by
+                      fostering an entrepreneurial mindset in our members, we can help to shape the future of the
+                      country and promote a more innovative and dynamic society.
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">                    
+                    <img src="{% static 'assets/images/choose-us-image-02.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Leadership quality</h4>
+                    <p>We believe that strong leadership is essential for driving personal and societal development. We
+                      strive to cultivate leadership qualities in our members by providing them with a range of
+                      resources and support.
+                    </p>
+                    <p>
+                      One of the ways we build leadership qualities is through our mentorship program, which pairs
+                      experienced entrepreneurs with aspiring leaders. Through one-on-one interactions, mentees can
+                      learn valuable skills and gain insights from their mentors. We also offer workshops and seminars
+                      on topics such as communication, teamwork, and decision-making, which can help our members to
+                      develop their leadership skills.
+                    </p>
+                    <p> In addition to these more formal programs, we also encourage our members to take on leadership
+                      roles within the club. This can include organizing events, managing teams, or representing the
+                      club in external forums. By taking on these responsibilities, our members can gain valuable
+                      experience and develop their leadership abilities.</p>
+                    <p>Overall, our goal is to help our members become confident and capable leaders who are ready to
+                      drive positive change in the world. We believe that by fostering strong leadership qualities in
+                      our members, we can contribute to the development of a more dynamic and successful society.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-03.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Cultivating Innovation</h4>
+                    <p>We strive to foster a culture of innovation in our club by providing our members with the tools
+                      and support they need to think creatively and develop novel ideas.
+                    </p>
+                    <p> One of the ways we encourage innovation in our club is through our workshops and seminars, which
+                      focus on topics such as design thinking, problem-solving, and idea generation. These sessions
+                      provide our members with the knowledge and skills they need to approach challenges in a creative
+                      and innovative way.</p>
+
+                    <p>In addition to these more formal programs, we also encourage our members to experiment and take
+                      risks. We believe that innovation often comes from trying new things and being willing to fail. To
+                      support this approach, we provide resources such as prototyping materials and access to
+                      makerspaces, which can help our members to bring their ideas to life.</p>
+
+                    <p>Overall, our goal is to create a community of innovators who are passionate about driving
+                      positive
+                      change in the world. By fostering a culture of innovation in our club, we hope to inspire our
+                      members to think creatively and develop solutions to the challenges facing our society.</p>
+
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a id="section4"></a>
+
+  <!-- PUPA -->
+
+  <section class="section courses" data-section="section4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Our Team</h2>
+          </div>
+        </div>
+        <div class="team-display">
+            {% comment %} --- {% endcomment %}
+   {% for member in team_members %}
+      <div class="item">
+          <img src="media/{{member.image}}" alt="{{member.name}}">
+          <div class="down-content">
+            <h4>{{member.name}}</h4>
+            <p>{{member.bio}}</p>
+            <h6>{{member.email}}</h6>
+          </div>
+      </div>
+  {% endfor %}
+        </div>
+  </section>
+
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Learn More about us</span>
+            <h4>Watch the video to learn more <em>about MIB</em></h4>
+            <p>Are you curious about the Make in BVB (MiB) University Club and what we do? Watch our video to learn more
+              about our organization and our mission. In the video, you'll hear from some of our members and get a
+              glimpse of the events and programs we offer.
+
+              You'll learn about our focus on fostering an entrepreneurial ecosystem on campus and how we support
+              students who are looking to start their own businesses. You'll also hear about our commitment to
+              innovation and how we provide our members with the tools and support they need to think creatively and
+              develop novel ideas.
+
+              In addition to these core programs, you'll also see some of the fun and exciting events we organize for
+              our members, such as networking mixers, guest speaker sessions, and social events.
+
+              <br><br> So if you're interested in learning more about MIB and how we're working to drive personal and
+              societal
+              development, watch our video now!
+            </p>
+            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/watch?v=eT_Q34IGukM"
+                target="_blank">WATCH NOW</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>MAKE IN BVB</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=eT_Q34IGukM" class="play"><img
+                  src="{% static 'assets/images/main-thumb.jpg' %}"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a id="section6"></a>
+
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Let’s Keep In Touch</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+
+            <form id="contact" action="/contact" method="post">
+              {% csrf_token %}
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..."
+                    required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.7702697615023!2d75.12222404137817!3d15.369806361077018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d0ccd709a737%3A0xa247612556cc78b3!2sKLE%20Technological%20University!5e0!3m2!1sen!2sin!4v1649040364333!5m2!1sen!2sin"
+              style="border:0;" allowfullscreen="" loading="lazy" id="google-map"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock body %}

@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block body %}
+    <section class="section main-banner main-content">
+        <!-- !PUPA CONTENT GOES HERE - start -->
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h2>
+                    PUPA
+                </h2>
+                <h6>A Maker's Movement</h6>
+                <div class="main-button register-button"><a rel="nofollow" href="#" target="_blank">Registrations
+                        opening soon!</a></div>
+            </div>
+        </div>
+
+
+        <!-- !PUPA CONTENT GOES HERE - end -->
+
+    </section>
+    <div class="main-text-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates et soluta harum corporis tempore animi
+        quo saepe magnam, esse accusamus id at autem consectetur! Deserunt amet reprehenderit saepe tenetur!
+        Aperiam quo officiis eos. Quam neque quibusdam consequatur dolores sapiente suscipit repellendus, adipisci
+        voluptate, eveniet vel cupiditate possimus iste sequi doloribus, eum dolore. Natus obcaecati tempore quibusdam
+        magnam! Cumque, libero.
+        Soluta corrupti, libero nostrum minima aliquid tenetur repellendus eaque ratione amet a accusamus at delectus
+        laborum quia odit numquam et cum dolorum esse odio! Qui sint ipsa ducimus est quis.
+        Distinctio doloremque alias placeat laudantium officiis, labore itaque possimus eum quibusdam corporis tenetur
+        magnam dignissimos autem. Sint, vero veritatis tempora error reiciendis, rerum mollitia sunt excepturi
+        doloribus, quas nobis? Suscipit!
+        Vero possimus incidunt at ex accusamus fugit voluptas, tempora error molestias eos magni nostrum, aut,
+        aspernatur porro earum nobis velit consectetur. Incidunt expedita laboriosam amet alias nihil dolores. Pariatur,
+        ad.
+        Minus deserunt nulla nihil repellat ducimus laboriosam, provident sapiente, dolore, mollitia expedita molestias
+        magni modi perspiciatis adipisci voluptatum! Non aut possimus accusantium neque officia quod architecto in ad
+        officiis qui.
+        Beatae assumenda quae odio ducimus ipsa architecto, error porro nulla ipsum officia, quas labore magnam a? Harum
+        officiis voluptatibus illo culpa itaque aliquid quod, delectus eaque neque reiciendis repellendus
+        exercitationem.
+        Necessitatibus dolor expedita exercitationem mollitia nobis explicabo incidunt rem repellat at cupiditate
+        aliquid eum voluptatem, odio aliquam fugit. Quod accusamus recusandae itaque reprehenderit dignissimos quibusdam
+        fugit in mollitia, molestias blanditiis.
+        Iure eos cumque nemo. Accusamus quia ab doloremque omnis voluptatibus totam ad. Facere repudiandae porro
+        doloremque! Minus itaque, aspernatur fugiat inventore necessitatibus quos corporis cum sint, expedita at
+        cupiditate enim.
+        Porro beatae maxime reprehenderit distinctio consectetur perferendis laborum! Quae quod qui enim quasi, harum
+        eos repellat pariatur sint nostrum debitis impedit ullam reiciendis sit placeat molestiae neque error porro
+        unde.
+    </div>
+    <div class="section-bg">
+
+        <div class="section-heading">
+            <h2>Updates</h2>
+        </div>
+        {% for update in updates %}
+        <div class="section-content">
+            <div class="section-content-title">{{update.title}}</div>
+            <div class="section-content-date">{{update.date}}</div>
+            <div class="section-content-author">{{update.author}}</div>
+            {{update.description}}
+        </div>
+        {% endfor %}
+    </div>
+    {% endblock body %}

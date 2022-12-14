@@ -1,0 +1,28 @@
+.main-header {
+    max-width: 100vw !important;
+}
+
+#google-map {
+    width: 100% !important;
+    height: 50vh !important;
+}
+
+#tabs ul li {
+    height: 4em;
+}
+
+.team-display{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin:1.8em;
+    width:20vw;
+}
+
+.item img{
+    width:20vw;
+
+}

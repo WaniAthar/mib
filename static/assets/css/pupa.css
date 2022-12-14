@@ -1,0 +1,60 @@
+.main-content {
+    padding-top: 50vh;
+    min-height: 70vh;
+}
+
+.main-text-content {
+    margin: 3em 7em;
+}
+
+.register-button {
+    margin-top: 2em;
+}
+
+.section-bg {
+    background-color: rgba(22, 34, 57, 0.99);
+    padding-bottom: 3em;
+
+}
+
+.section-content {
+    padding: 1em 10em;
+    color: #ffffff;
+    padding-bottom: 2em;
+}
+
+.section-heading {
+    margin-bottom: 1em !important;
+}
+
+.section-content-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.section-content-date {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.section-content-author {
+    font-weight: 200;
+    margin-bottom: 0.5em;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .main-content {
+        padding-top: 30vh;
+        min-height: 70vh;
+    }
+
+    .section-content {
+        padding: 1em 3em;
+    }
+
+    .main-text-content {
+        margin: 2em 3em;
+    }
+}
